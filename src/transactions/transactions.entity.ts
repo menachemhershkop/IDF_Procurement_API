@@ -8,7 +8,7 @@ export class Items extends Model {
 
   @Column
   
-  type: number;
+  type: string;
 
   @Column
   quantity: number;
